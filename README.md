@@ -11,3 +11,11 @@ cd cert && chmod +x make.sh
 
 openssl pkcs12 -export -out agent.p12 -inkey agent.key -in agent.crt -chain -CAfile ca.crt
 ```
+
+# Step2: Change nginx conf
+Set it to give a 403 response to unauth requests!
+```
+cp ./nginx/conf.d/base.conf /etc/nginx/conf.d
+
+service nginx restart
+```

@@ -9,7 +9,7 @@ cd cert && chmod +x make.sh
 
 ./make.sh
 
-openssl pkcs12 -export -out agent.p12 -inkey agent.key -in agent.crt -chain -CAfile ca.crt
+openssl pkcs12 -export -out foad.p12 -inkey agent.key -in agent.crt -chain -CAfile ca.crt
 ```
 
 # Step2: Change nginx conf
@@ -19,3 +19,7 @@ cp ./nginx/conf.d/base.conf /etc/nginx/conf.d
 
 service nginx restart
 ```
+# Step3: Import Cert to token
+.. image:: img/import_cert.png
+    :alt: Import
+    :align: center

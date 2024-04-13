@@ -1,5 +1,5 @@
 # nginx-certificate-auth
-nginx certificate auth
+nginx client authenticate with certificate.
 
 # Step1: Create self-sign cert
 ```

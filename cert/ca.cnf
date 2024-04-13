@@ -11,7 +11,7 @@ countryName                 = IR
 stateOrProvinceName         = Yazd
 localityName                = Yazd
 organizationName            = AGAGroup, Inc.
-commonName                  = -ca
+commonName                  = nms-ca
 
 [v3_req]
 basicConstraints = critical, CA:true

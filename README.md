@@ -20,6 +20,5 @@ cp ./nginx/conf.d/base.conf /etc/nginx/conf.d
 service nginx restart
 ```
 # Step3: Import Cert to token
-.. image:: img/import_cert.png
-    :alt: Import
-    :align: center
+
+![image](img/import_cert.png)
